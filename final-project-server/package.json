@@ -1,0 +1,23 @@
+{
+  "name": "final-project-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "prabhjeet rajanbir",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.0.1",
+    "eslint": "^6.8.0",
+    "express": "^4.17.1",
+    "pg": "^7.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "description": ""
+}

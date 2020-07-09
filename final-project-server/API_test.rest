@@ -1,0 +1,16 @@
+GET http://localhost:3001/tracks HTTP/1.1
+
+###
+GET http://localhost:3001/tracks_list_all HTTP/1.1
+
+###
+DELETE http://localhost:3001/tracks/2 HTTP/1.1
+
+
+###
+POST http://localhost:3001/tracks HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+
+playlist_id=2&title=aaaa&uri=dfghjpjhgfg&master_id=233
+
+
